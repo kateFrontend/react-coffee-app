@@ -41,9 +41,9 @@ if(benefits.length === 0) {
                 <img src={image} alt={name} />
                 <footer>
                     <div className="description">
-                        <h2>{name}</h2>
-                        <p>{showMore ? text : text.substring(0,130) + "....."}
-                        <button onClick={() => showTextClick(element)}>{showMore ? "show less" : "show more"}</button></p>
+                        <h2 className="subtitle">{name}</h2>
+                        <p className="benefit-info">{showMore ? text : text.substring(0,180) + "....."}
+                        <button className="btn" onClick={() => showTextClick(element)}>{showMore ? "show less" : "show more"}</button></p>
                         <button className="delete-btn" onClick={() => removeBenefit(id)}>not interested</button>
                     </div>
                 </footer>
