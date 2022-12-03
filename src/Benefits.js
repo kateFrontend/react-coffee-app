@@ -1,31 +1,57 @@
-import React from "react";
-import { GiCoffeeCup } from "react-icons/gi";
+import {useState} from "react";
+
+import { data } from "./data"
 
 function Benefits() {
+  const [benefits, setBenefits] = useState(data);
+  const [showMore, setShowMore] = useState(false);
+
+  const removeBenefit = (id) => {
+    let newBenefit = benefits.filter((element) => element.id !==id);
+    setBenefits(newBenefit)
+  }
+
+  const showTextClick = (element) => {
+    element.showMore = !element.showMore
+    setShowMore(!showMore)
+  }
+
+if(benefits.length === 0) {
+    return (
+        <main>
+            <div>
+                <h2>no benefits left</h2>
+                <button className="btn" onClick={() => window.location.reload(false)}>Click to reload benefits</button>
+            </div>
+        </main>
+    )
+}
+
   return (
-    <div>
+    <main>
       <div className="title">
-      <h1>10 Health Benefits of Coffee</h1>
+        <h1>10 Health Benefits of Coffee</h1>
       </div>
 
-      <div className="benefit-main">
-        <div className="benefit-cont">
-          <div>
-            <p className="number">
-              1 <GiCoffeeCup className="icons" />
-            </p>
-            <h2></h2>
-          </div>
-          <div className="text-block">
-            <p>
-              
-            </p>
-          </div>
-        </div>
-
-       
-      </div>
-    </div>
+      <section className="benefit-main">
+       {benefits.map((element) => {
+        const { id, name, text, image, showMore } = element;
+        return (
+            <article className="one-benefit" key={id}>
+                <img src={image} alt={name} />
+                <footer>
+                    <div className="description">
+                        <h2>{name}</h2>
+                        <p>{showMore ? text : text.substring(0,130) + "....."}
+                        <button onClick={() => showTextClick(element)}>{showMore ? "show less" : "show more"}</button></p>
+                        <button className="delete-btn" onClick={() => removeBenefit(id)}>not interested</button>
+                    </div>
+                </footer>
+            </article>
+        )
+       })}
+      </section>
+    </main>
   );
 }
 
