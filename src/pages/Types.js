@@ -15,18 +15,18 @@ function Types() {
   return (
     <div>
       <div>
-        <h1>Guide to Different Types of Coffee</h1>
+        <h1 className="title">Guide to Different Types of Coffee</h1>
         <Buttons chooseType={chooseType} />
       </div>
       <div className="types">
         {types.map((element) => {
           const { id, name, searchTerm, image, info } = element;
           return (
-            <div className="cofee-card" key={id}>
-              <img src={image} width="200px" alt={name} />
+            <div className="coffee-card" key={id}>
+              <img src={image} alt={name} className='type-img' />
               <div className="coffe-info">
-                <h3>{name}</h3>
-                <p>{info}</p>
+                <h2 className="type-subtitle">{name}</h2>
+                <p className="type-text">{info}</p>
               </div>
             </div>
           );

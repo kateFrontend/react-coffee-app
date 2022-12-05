@@ -107,11 +107,17 @@ p {
 .title {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .subtitle {
   margin: 2rem 0;
   text-align: center;
+}
+
+.type-tytle {
+  display: flex;
+  margin: 0 auto;
 }
 
 .btn {
@@ -158,4 +164,39 @@ p {
   background: var(--clr-white);
   color: var(--clr-primary-5);
   transition: var(--transition);
+}
+
+.types {
+  display: flex;
+  justify-content: space-between;
+  width: var(--max-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.coffee-card {
+  width: 460px;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.coffee-card:hover{
+  box-shadow: var(--dark-shadow);
+  transition: var(--transition);
+}
+
+.type-subtitle {
+  margin: 1rem 0;
+}
+
+.type-text {
+  line-height: 1.5rem;
+  letter-spacing: var(--spacing)
+}
+
+.type-img{
+  width: 420px;
+  border-radius: var(--radius);
 }
