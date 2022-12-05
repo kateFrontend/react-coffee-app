@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-import { data } from "./data/data"
+import { data } from "../data/data"
 
 function Benefits() {
   const [benefits, setBenefits] = useState(data);
