@@ -1,4 +1,4 @@
-export const cofeeTypes = [
+export const coffeeTypes = [
   {
     id: 1,
     name: "Black",
@@ -31,7 +31,7 @@ export const cofeeTypes = [
     name: "Americano",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water. Pro tip: if you’re making your own, pour the espresso first, then add the hot water.",
   },
 
@@ -40,7 +40,7 @@ export const cofeeTypes = [
     name: "Espresso",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.",
   },
 
@@ -49,7 +49,7 @@ export const cofeeTypes = [
     name: "Doppio",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "A double shot of espresso, the doppio is perfect for putting extra pep in your step.",
   },
 
@@ -58,7 +58,7 @@ export const cofeeTypes = [
     name: "Cortado",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity.",
   },
 
@@ -67,7 +67,7 @@ export const cofeeTypes = [
     name: "Red Eye",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "Named after those pesky midnight flights, a red eye can cure any tiresome morning. A full cup of hot coffee with an espresso shot mixed in, this will definitely get your heart racing.",
   },
 
@@ -85,7 +85,7 @@ export const cofeeTypes = [
     name: "Lungo",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "A lungo is a long-pull espresso. The longer the pull, the more caffeine there is and the more ounces you can enjoy.",
   },
 
@@ -94,7 +94,7 @@ export const cofeeTypes = [
     name: "Macchiato",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.",
   },
 
@@ -103,7 +103,7 @@ export const cofeeTypes = [
     name: "Mocha",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.",
   },
 
@@ -112,7 +112,7 @@ export const cofeeTypes = [
     name: "Ristretto",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.",
   },
 
@@ -121,7 +121,7 @@ export const cofeeTypes = [
     name: "Flat White",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "This Aussie-born drink is basically a cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.",
   },
 
@@ -130,7 +130,7 @@ export const cofeeTypes = [
     name: "Affogato",
     searchTerm: "espresso",
     image:
-      "https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://images.unsplash.com/photo-1582098763665-8477ab3c25fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80",
     info: "The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two.",
   },
 

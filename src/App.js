@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import About from "./About";
+import Types from "./Types";
 import Home from "./Home";
 import Contact from "./Contact";
 import './App.css'
@@ -12,8 +12,8 @@ function App() {
         <Link to="/home" className="link">
           Home
         </Link>
-        <Link to="/about" className="link">
-          About Us
+        <Link to="/types" className="link">
+          Coffee types
         </Link>
         <Link to="/contact" className="link">
           Contact Us
@@ -22,7 +22,7 @@ function App() {
 
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/types" element={<Types />} />
         <Route path="/contact" element={<Contact />} />/
       </Routes>
     </Router>
