@@ -4,7 +4,7 @@ function Buttons({chooseType}) {
   return (
     <div className='btn-container'>
         <button className='change' onClick={() => chooseType("hot")}>
-            hot coffe
+            hot coffee
         </button>
         <button className='change' onClick={() => chooseType("espresso")}>
         espresso

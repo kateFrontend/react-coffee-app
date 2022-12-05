@@ -137,3 +137,25 @@ p {
   transition: var(--transition);
 }
 
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  margin: 3rem auto;
+}
+
+
+.change {
+  padding: 10px 30px;
+  background: var(--clr-primary-5);
+  border: none;
+  color: var(--clr-white);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.change:hover{
+  background: var(--clr-white);
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
