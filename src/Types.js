@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { coffeeTypes } from "./coffeeTypes"
+import { coffeeTypes } from "./data/coffeeTypes"
 import Buttons from "./Buttons"
 
 function Types() {
