@@ -5,10 +5,14 @@ import Benefits from "./pages/Benefits"
 import Contact from "./pages/Contact";
 import "./App.css";
 import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
+    <>
     <Router>
+
+
       <nav>
         <Link to="/" className="link">
           Home
@@ -22,7 +26,7 @@ function App() {
         <Link to="/contact" className="link">
           Contact Us
         </Link>
-      </nav>
+      </nav> 
 
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -31,7 +35,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />/
       </Routes>
     </Router>
+    </>
   );
+
 }
 
 export default App;
