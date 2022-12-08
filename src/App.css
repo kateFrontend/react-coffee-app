@@ -273,3 +273,49 @@ p {
   cursor: pointer;
 }
 
+/* About */
+
+.about-section {
+  display:flex;
+  width: var(--fullWidth);
+  max-width: var(--fullWidth);
+  margin: 0 auto;
+}
+.about-section p {
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.about-title{
+  font-size: 3rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  text-align: left;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.about-title:hover{
+  transform: scale(1.1);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.par-about:hover{
+  transform: scale(1.1);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.img-about{
+  border-radius:2rem;
+  width: 750px;
+  margin-left: 5rem;
+  box-shadow: var(--lightShadow)
+}
+
+.img-about:hover{
+  transform: scale(1.2);
+  transition: var(--mainTransition);
+}
