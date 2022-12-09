@@ -296,26 +296,3 @@ p {
   margin-top: 1rem;
 }
 
-.about-title:hover{
-  transform: scale(1.1);
-  transition: var(--mainTransition);
-  cursor: pointer;
-}
-
-.par-about:hover{
-  transform: scale(1.1);
-  transition: var(--mainTransition);
-  cursor: pointer;
-}
-
-.img-about{
-  border-radius:2rem;
-  width: 750px;
-  margin-left: 5rem;
-  box-shadow: var(--lightShadow)
-}
-
-.img-about:hover{
-  transform: scale(1.2);
-  transition: var(--mainTransition);
-}
