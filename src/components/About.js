@@ -36,7 +36,7 @@ const About = () => {
           Ethiopia, and Vietnam; the latter overtook Colombia and became the
           second-largest producer in 1999. Modern production techniques along
           with the mass productization of coffee has made it a household item
-          today
+          today.
         </p>
       </div>
       <div>
