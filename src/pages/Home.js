@@ -1,11 +1,14 @@
 import React from "react";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
 import Sections from "../components/Sections";
 
 
 function Home() {
   return (
     <div>
-      <h1>Home section</h1>
+      <Navbar/>
+      <Hero/>
       <Sections/>
     </div>
   );
