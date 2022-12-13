@@ -12,7 +12,6 @@ function App() {
     <>
     <Router>
 
-
       <nav>
         <Link to="/" className="link">
           Home

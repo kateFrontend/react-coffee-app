@@ -296,3 +296,35 @@ p {
   margin-top: 1rem;
 }
 
+/* Sections */
+
+.element {
+  width: 450px;
+  height: 300px;
+  background-color:#476a2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 5rem;
+}
+
+.element:hover{
+  transform: scale(1.1);
+  transition: var(--mainTransition);
+}
+
+.el-title{
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.el-section{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  width: var(--fullWidth);
+  max-width: var(--fullWidth);
+}
