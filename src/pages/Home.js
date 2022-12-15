@@ -8,8 +8,8 @@ function Home() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <Sections/>
+{/*       <Hero/>
+      <Sections/> */}
     </div>
   );
 }
