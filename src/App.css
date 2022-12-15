@@ -439,3 +439,96 @@ a {
     margin-right: 10px;
   }
 }
+
+
+/* Navbar */
+
+nav{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 5rem;
+}
+
+nav h1 {
+  color: white; 
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding: 10px 25px;
+}
+
+.menu ul li a {
+  color: white; 
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  background:var(--clr-primary-5);
+  padding: 8px 20px;
+  border: 2px solid var(--clr-primary-5);
+  border-radius: 30px;
+}
+
+.btn a{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.bar {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--clr-primary-5);
+}
+
+/* Media Query Responsive Navbar */
+
+@media screen and (max-width: 985px) {
+  nav{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  nav h1 {
+    font-size: 1.6rem;
+  }
+  .btn {
+    margin: 0;
+  }
+  .bar{
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+    /* z-index: 9999!important; */
+    position: absolute;
+    left: 3%;
+    top: 68px;
+    background-color: black;
+    /* transform: translateY(-300px); */
+    transition: transform 1s ease-in-out visibility 1s;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    /* visibility: hidden; */
+  }
+}

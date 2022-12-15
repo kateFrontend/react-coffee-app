@@ -25,7 +25,7 @@ function Navbar() {
             <a href="#">Bar</a>
           </div>
         </div>
-        <FaBars />
+        <FaBars className="bar"/>
       </nav>
     </>
   );
