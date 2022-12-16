@@ -3,7 +3,7 @@ import React from 'react'
 function History() {
   return (
     <section className="section about-section">
-    <div>
+    <main>
       <h1 className="about-title">History of coffee</h1>
       <p className="par-about">
         The history of coffee dates back to centuries of old oral tradition in
@@ -38,7 +38,7 @@ function History() {
         with the mass productization of coffee has made it a household item
         today.
       </p>
-    </div>
+    </main>
   </section>
   )
 }

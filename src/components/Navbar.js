@@ -7,7 +7,7 @@ const [showMenu, setShowMenu] = useState(false);
 
   return (
     <>
-      <nav>
+      <nav className="sticky">
         <a href="/" className="coffee-title">CoffeeMe</a>
         <div className={ showMenu ? "menu mobile-menu" : "menu" }>
           <ul>
@@ -25,7 +25,7 @@ const [showMenu, setShowMenu] = useState(false);
             </li>
           </ul>
         </div>
-        <FaBars className="bar" onClick={() => setShowMenu(!showMenu)}/>
+        <FaBars className="bar" onClick={() => setShowMenu(!showMenu)}/>  {/* need to setup close icon */}
       </nav>
     </>
   );

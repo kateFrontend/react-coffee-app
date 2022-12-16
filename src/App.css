@@ -63,6 +63,10 @@ p {
   font-size: 1rem;
 }
 
+main{
+  margin-top: 10rem;
+}
+
 .benefit-main {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -457,6 +461,13 @@ nav{
   padding: 18px 5rem;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+}
+
 nav .coffee-title {
   color: var(--clr-primary-5);
   font-size: 1.6rem;
@@ -500,7 +511,6 @@ nav .coffee-title {
     padding-right: 3rem;
   }
 
-
   .bar{
     display: flex;
   }
@@ -509,15 +519,14 @@ nav .coffee-title {
     display: block;
     z-index: 9999!important; 
     position: absolute;
-    left: 3%;
-    top: 70px;
+    left: 0;
+    top:60px;
     background-color: black;
     transform: translateX(-300px); 
     transition: transform 1s ease-in-out visibility 1s;
-    width: 95%;
+    width: 100%;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
+    padding-bottom: 100%;
     visibility: hidden;
   }
 

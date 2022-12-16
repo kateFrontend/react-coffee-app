@@ -13,7 +13,7 @@ function Types() {
   };
 
   return (
-    <div>
+    <main>
       <div>
         <h1 className="title">Guide to Different Types of Coffee</h1>
         <Buttons chooseType={chooseType} />
@@ -32,7 +32,7 @@ function Types() {
           );
         })}
       </div>
-    </div>
+    </main>
   );
 }
 
