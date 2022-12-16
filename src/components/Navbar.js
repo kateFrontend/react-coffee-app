@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 
 function Navbar() {
+
+const [showMenu, setShowMenu] = useState(false);
+
   return (
     <>
       <nav>
-        <h1>CoffeeMe</h1>
-        <div className="menu">
+        <a href="/" className="coffee-title">CoffeeMe</a>
+        <div className={ showMenu ? "menu mobile-menu" : "menu" }>
           <ul>
             <li>
               <a href="/"> Home </a>
@@ -21,11 +24,8 @@ function Navbar() {
               <a href="/benefits"> Coffee benefits </a>
             </li>
           </ul>
-          <div className="btn">
-            <a href="#">Bar</a>
-          </div>
         </div>
-        <FaBars className="bar"/>
+        <FaBars className="bar" onClick={() => setShowMenu(!showMenu)}/>
       </nav>
     </>
   );

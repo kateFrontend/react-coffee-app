@@ -449,6 +449,7 @@ nav{
   right: 0;
   top: 0;
   width: 100%;
+  font-size: 1.3rem;
   z-index: 9;
   display: flex;
   justify-content: space-between;
@@ -456,9 +457,10 @@ nav{
   padding: 18px 5rem;
 }
 
-nav h1 {
-  color: white; 
-  font-size: 2rem;
+nav .coffee-title {
+  color: var(--clr-primary-5);
+  font-size: 1.6rem;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
 
@@ -472,27 +474,16 @@ nav h1 {
 
 .menu ul li {
   padding: 10px 25px;
+  list-style-type: none;
 }
 
 .menu ul li a {
-  color: white; 
-  font-weight: 400;
+  color: var(--clr-primary-5);
+  text-decoration: none;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
 
-.btn {
-  background:var(--clr-primary-5);
-  padding: 8px 20px;
-  border: 2px solid var(--clr-primary-5);
-  border-radius: 30px;
-}
-
-.btn a{
-  color: white;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-}
 
 .bar {
   display: none;
@@ -508,27 +499,48 @@ nav h1 {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  nav h1 {
-    font-size: 1.6rem;
-  }
-  .btn {
-    margin: 0;
-  }
+
+
   .bar{
     display: flex;
   }
 
   .menu {
     display: block;
-    /* z-index: 9999!important; */
+    z-index: 9999!important; 
     position: absolute;
     left: 3%;
-    top: 68px;
+    top: 70px;
     background-color: black;
-    /* transform: translateY(-300px); */
+    transform: translateX(-300px); 
     transition: transform 1s ease-in-out visibility 1s;
+    width: 95%;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 1rem;
-    /* visibility: hidden; */
+    visibility: hidden;
   }
+
+  .mobile-menu{
+    visibility: visible;
+    transform: translateX(0px);
+    transition: transform 1s ease-in-out, visibility 1s;
+  }
+
+  .menu ul {
+    display: block;
+  }
+
+  .menu ul li {
+    padding: 17px 3rem;
+  }
+
+}
+
+@media screen and (max-width: 55px) {
+  nav{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
 }
