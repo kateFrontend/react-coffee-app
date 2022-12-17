@@ -7,9 +7,8 @@ import Sections from "../components/Sections";
 function Home() {
   return (
     <div>
-      <Navbar/>
-{/*       <Hero/>
-      <Sections/> */}
+       <Hero/>
+      <Sections/> 
     </div>
   );
 }

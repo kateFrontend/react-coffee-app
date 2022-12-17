@@ -8,19 +8,19 @@ function Sections() {
     <section className="el-section">
         <div className="element">
             <Link to="/history">
-                <h3 className="el-title">History</h3>
+                <h3 className="el-title">History <br/>of coffee</h3>
             </Link>
         </div>
 
         <div className="element">
             <Link to="/types">
-                <h3 className="el-title">Coffee types</h3>
+                <h3 className="el-title">Coffee <br/> types</h3>
             </Link>
         </div>
 
         <div className="element">
             <Link to="/benefits">
-                <h3 className="el-title">Benefits</h3>
+                <h3 className="el-title">Cofee <br/>benefits</h3>
             </Link>
         </div>
     </section>
