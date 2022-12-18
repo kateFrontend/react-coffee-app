@@ -1,31 +1,31 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Sections() {
   return (
     <div className="serv-section">
-    <h1 className="serv-title">Sections to explore</h1>
-    <section className="el-section">
-        <div className="element">
-            <Link to="/history">
-                <h3 className="el-title">History of coffee</h3>
-            </Link>
-        </div>
+      <h1 className="serv-title">Sections to explore</h1>
+      <section className="el-section">
+        <Link to="/history">
+          <div className="element">
+            <h3 className="el-title">History <br/> of coffee</h3>
+          </div>
+        </Link>
 
-        <div className="element">
-            <Link to="/types">
-                <h3 className="el-title">Coffee types</h3>
-            </Link>
-        </div>
+        <Link to="/types">
+          <div className="element">
+            <h3 className="el-title">Coffee <br/> types</h3>
+          </div>
+        </Link>
 
-        <div className="element">
-            <Link to="/benefits">
-                <h3 className="el-title">Cofee benefits</h3>
-            </Link>
-        </div>
-    </section>
-</div>
-  )
+        <Link to="/benefits">
+          <div className="element">
+            <h3 className="el-title">Coffee <br/> benefits</h3>
+          </div>
+        </Link>
+      </section>
+    </div>
+  );
 }
 
-export default Sections
+export default Sections;
