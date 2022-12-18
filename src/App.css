@@ -657,32 +657,5 @@ nav .coffee-title {
 
 /* Slider */
 
-.slider-title {
-  margin-bottom: 5rem;
-  text-transform: capitalize;
-}
 
-.slider {
-  margin: 0 auto;
-  width: 80%;
-  height: 450px;
-  max-width: 800px;
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.author {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-.quote-icon {
-  font-size: 3rem;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  color: var(--clr-primary-5);
-}
 
