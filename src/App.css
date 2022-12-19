@@ -368,75 +368,7 @@ main{
 
 
 
-/* Counter */
 
-.counter-title {
-  padding-left: 10rem;
-}
-
-.counter {
-  padding: 5rem;
-  background: #C4DFE6;
-}
-
-.counter-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.counter-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-right: 1px solid #003B46;
-}
-.counter-column:last-child {
-  border-right: none;
-}
-
-.counter-column .number {
-  font-weight: 600;
-  font-size: 50px;
-  color: #003B46;
-}
-
-.counter-column span{
-  display: block;
-  font-size: 18px;
-  color:rgba(0, 0, 0, 0.7);
-  line-height: 1.2;
-  padding-left: 15px;
-}
-
-.counter-column .percentage {
-  font-style: 3rem;
-  font-weight: 400;
-  color: #003B46;
-}
-
-@media screen and (max-width: 1024px) {
-  .counter-row{
-      grid-template-columns: 1fr 1fr;
-  }
-  .counter-column{
-      padding: 2rem 0 2rem 0;
-      border: none;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .counter{
-      padding: 1rem 1rem 2rem 1rem;
-  }
-  .counter-row{
-      grid-template-columns: 1fr;
-  }
-  .counter-column {
-      padding: 2rem 0 2rem 0;
-  }
-}
 
 /* Slider */
 

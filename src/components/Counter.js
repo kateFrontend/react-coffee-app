@@ -2,6 +2,7 @@ import { isVisible } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
+import '../css/Counter.css';
 
 function Counter({ className, ...rest }) {
   const [viewPortEntered, setViewPortEntered] = useState(false);
