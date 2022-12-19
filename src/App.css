@@ -9,7 +9,7 @@ Variables
   /* primary/main color */
   --clr-primary-5: #00adb5;
   /* lighter shades of primary color */
-  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-10: #19100B;
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   /* grey used for paragraphs */
@@ -370,7 +370,7 @@ main{
   display: flex;
   padding-top: 13rem;
   padding-left: 10rem;
-  background-image: url('./assets/01.jpg');
+  background-image: url('./assets/04.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -382,10 +382,10 @@ main{
   content: '';
   position: absolute;
   left: 0;
-  bottom: 10vh;
+  bottom: 8vh;
   right: 0;
   top: 0;
-  background: #001d38;
+  background: #19100B;
   opacity: .6;
 }
 
@@ -410,7 +410,9 @@ main{
 .hero-link .explore {
   margin-right: 20px;
   padding: 12px 60px;
-  background-color: var(--clr-primary-5);
+  border: 2px solid var(--clr-white);
+  border-radius: var(--radius);
+/*   background-color: var(--clr-primary-10); */
   /* border: 1px solid var(--clr-primary-5); */
   /* border-radius: 2rem 0 2rem 0; */
   color: white;
