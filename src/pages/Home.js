@@ -11,7 +11,8 @@ function Home() {
     <div>
       <Hero/>
        <Counter/>
-      {/* <Sections/>
+       <Sections/>
+       {/*
       <Slider/> 
       <Video/>  */}
     </div>

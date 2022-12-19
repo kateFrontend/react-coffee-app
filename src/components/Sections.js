@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../css/Sections.css'
 
 function Sections() {
   return (
     <div className="serv-section">
       <h1 className="serv-title">Sections to explore</h1>
+      
       <section className="el-section">
         <Link to="/history">
           <div className="element">
