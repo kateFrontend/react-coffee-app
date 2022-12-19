@@ -659,3 +659,16 @@ nav .coffee-title {
 
 
 
+
+
+/* Video */
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

@@ -3,6 +3,7 @@ import Counter from "../components/Counter";
 import Hero from "../components/Hero";
 import Sections from "../components/Sections";
 import Slider from "../components/Slider";
+import Video from "../components/Video";
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
        <Counter/>
       <Sections/>
       <Slider/> 
+      <Video/>
     </div>
   );
 }
