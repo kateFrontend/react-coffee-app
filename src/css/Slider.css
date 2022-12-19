@@ -31,15 +31,16 @@
 .next {
   position: absolute;
   bottom: 400px;
+  margin:-90px -150px;
   transform: translateY(-50%);
   background: black;
   color: var(--clr-white);
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 2rem;
+  height: 2.5rem;
   display: grid;
   place-items: center;
   border-color: transparent;
-  font-size: 1rem;
+  font-size: 2rem;
   border-radius: var(--radius);
   cursor: pointer;
   transition: var(--transition);
