@@ -9,11 +9,11 @@ import Video from "../components/Video";
 function Home() {
   return (
     <div>
-{/*        <Hero/>
+      <Hero/>
        <Counter/>
-      <Sections/>
+      {/* <Sections/>
       <Slider/> 
-      <Video/> */}
+      <Video/>  */}
     </div>
   );
 }

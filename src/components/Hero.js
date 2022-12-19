@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Hero.css'
 
 function Hero() {
   return (
@@ -7,7 +8,7 @@ function Hero() {
         <div className='container'>
             <h1>What is your <br/> favourite taste?</h1>
             <div className='hero-link'>
-                <a href='#' className='explore'>Choose</a>
+                <a href='/types' className='explore'>Choose</a>
             </div>
         </div>
     </section>
