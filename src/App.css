@@ -43,6 +43,7 @@ Global Styles
 
 h1 {
   font-size: 3rem;
+  text-transform: capitalize;
 }
 
 h2 {
@@ -63,10 +64,6 @@ p {
   font-size: 1rem;
 }
 
-main{
-  margin-top: 10rem;
-  padding: 0 10rem;
-}
 
 
 .benefit-main {

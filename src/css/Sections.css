@@ -2,8 +2,9 @@
 
 .serv-title {
     color: var(--clr-white);
+    text-align: center;
     font-weight: 400;
-    padding-top: 5rem;
+    padding: 5rem 0;
   }
   
   .serv-section {
@@ -12,7 +13,6 @@
   }
   
   .el-section{
-    margin: 5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,12 +40,6 @@
     opacity: .6;
   }
   
-  /* .element:hover{
-    transform: scale(1.1);
-    transition: var(--mainTransition);
-  } */
-  
-  
   .el-title{
     color: white;
     font-size: 3rem;
@@ -64,13 +58,17 @@
 
   @media screen and (max-width:780px) {
 
+    .el-section{
+      padding: 0 5rem;
+    }
+
     .serv-section {
       padding: 0;
       background: var(--clr-primary-10);
     }
     .serv-title {
-      font-size: 24px;
-      padding-left: 5rem;
+      font-size: 28px;
+      padding-left: 3rem;
     }
     .element {
       width: 250px;

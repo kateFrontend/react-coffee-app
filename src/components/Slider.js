@@ -29,14 +29,14 @@ function Slider() {
   };
 
   return (
-    <main>
+    <section className="slider-main">
       <div className="slider-title">
         <h1>Coffee quotes for coffee lovers</h1>
       </div>
 
       <div className="slider">
         <FaQuoteRight className="quote-icon" />
-        <h2 className="quote">{quote}</h2>
+        <p className="quote">{quote}</p>
         <p className="author">{name}</p>
 
         <button className="prev" onClick={previousQuote}>
@@ -47,7 +47,7 @@ function Slider() {
           <FiChevronRight />
         </button>
       </div>
-    </main>
+    </section>
   );
 }
 

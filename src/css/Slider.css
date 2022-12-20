@@ -1,6 +1,18 @@
+.slider-main {
+  background-color: var(--clr-primary-10);
+  padding: 0 5rem;
+  margin: 0;
+}
+
 .slider-title {
-    margin-bottom: 5rem;
-    text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-title h1{
+    padding: 5rem 0;
+    font-weight: 400;
+    color: var(--clr-white);
   }
   
   .slider {
@@ -12,19 +24,27 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    color: var(--clr-white);
+  }
+
+  .quote {
+    font-weight: 400;
+    color: var(--clr-white);
+    font-size: 2rem;
   }
   
   .author {
     margin-top: 2rem;
     font-size: 1.2rem;
     font-style: italic;
+    color: var(--clr-white);
   }
   
   .quote-icon {
     font-size: 3rem;
     margin: 0 auto;
     margin-bottom: 2rem;
-    color: var(--clr-primary-5);
+    color: var(--clr-white);
   }
 
 .prev,
@@ -33,25 +53,71 @@
   bottom: 400px;
   margin:-90px -150px;
   transform: translateY(-50%);
-  background: black;
+  background: transparent;
   color: var(--clr-white);
-  width: 2rem;
-  height: 2.5rem;
   display: grid;
   place-items: center;
   border-color: transparent;
-  font-size: 2rem;
-  border-radius: var(--radius);
+  font-size: 3rem;
   cursor: pointer;
   transition: var(--transition);
 }
-.prev:hover,
-.next:hover {
-  background: var(--clr-primary-5);
-}
+
 .prev {
   left: 0;
 }
 .next {
   right: 0;
+}
+
+@media screen and (max-width: 1028px) {
+
+  main {
+    background-color: var(--clr-primary-10);
+    padding: 5rem;
+    margin: 0;
+  }
+  .slider {
+    width: 60%;
+  }
+  .slider-title h1{
+    font-size: 32px;
+  }
+  .quote {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .slider-title h1{
+    font-size: 1.5rem;
+  }
+
+  .slider {
+    padding: 0;
+    height: 250px;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+  .author {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  .quote-icon {
+    font-size: 2rem;
+  }
+  .prev,
+.next {
+  font-size: 1.5rem;
+  bottom: 200px;
+}
+.prev {
+  left: 50px;
+}
+.next {
+  right: 50px;
+}
 }

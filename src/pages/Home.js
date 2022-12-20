@@ -12,9 +12,8 @@ function Home() {
       <Hero/>
        <Counter/>
        <Sections/>
-       {/*
       <Slider/> 
-      <Video/>  */}
+      <Video/>  
     </div>
   );
 }
