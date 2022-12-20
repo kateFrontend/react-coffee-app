@@ -43,27 +43,19 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-
 ### Install React Router DOM
-
 ```
 npm i react-router-dom
 ```
-
 ### Install React Icons
-
 ```
 npm install react-icons --save
 ```
-
 ### Install React Counter
-
 ```
 npm i react-countup
 ```
-
 ### Install React Visibility Sensor
-
 ```
 npm i react-visibility-sensor
 ```
