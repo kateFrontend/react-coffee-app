@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import '../css/Navbar.css'
+import "../css/Navbar.css";
 
 function Navbar() {
-
-const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <>
       <nav className="sticky">
-        <a href="/" className="coffee-title">CoffeeMe</a>
-        <div className={ showMenu ? "menu mobile-menu" : "menu" }>
+        <a href="/" className="coffee-title">
+          CoffeeMe
+        </a>
+        <div className={showMenu ? "menu mobile-menu" : "menu"}>
           <ul>
             <li>
               <a href="/"> Home </a>
@@ -26,7 +27,7 @@ const [showMenu, setShowMenu] = useState(false);
             </li>
           </ul>
         </div>
-        <FaBars className="bar" onClick={() => setShowMenu(!showMenu)}/>  {/* need to setup close icon */}
+        <FaBars className="bar" onClick={() => setShowMenu(!showMenu)} />
       </nav>
     </>
   );
