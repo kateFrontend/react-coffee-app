@@ -28,12 +28,12 @@ if(benefits.length === 0) {
 }
 
   return (
-    <main>
+    <section>
       <div className="title">
         <h1>10 Health Benefits of Coffee</h1>
       </div>
 
-      <section className="benefit-main">
+      <div className="benefit-main">
        {benefits.map((element) => {
         const { id, name, text, image, showMore } = element;
         return (
@@ -50,8 +50,8 @@ if(benefits.length === 0) {
             </article>
         )
        })}
-      </section>
-    </main>
+      </div>
+    </section>
   );
 }
 

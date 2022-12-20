@@ -125,20 +125,20 @@ p .link {
 .benefit-main {
   width: 90vw;
   max-width: var(--fixed-width);
-  margin: 5rem auto;
+  margin: 2rem auto;
 }
 
 .one-benefit {
   background: var(--clr-white);
   border-radius: var(--radius);
   margin: 2rem 0;
-  box-shadow: var(--light-shadow);
+  box-shadow: var(--dark-shadow);
   transition: var(--transition);
   padding: 2rem;
 }
 
 .one-benefit:hover {
-  box-shadow: var(--dark-shadow);
+  box-shadow: var(--light-shadow);
 }
 
 .one-benefit img {
@@ -167,23 +167,20 @@ p .link {
 .title {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 10rem;
 }
 
 .subtitle {
   margin: 2rem 0;
   text-align: center;
+  color: var(--clr-primary-5);
 }
 
-.type-tytle {
-  display: flex;
-  margin: 0 auto;
-}
 
 .btn {
   border-radius: var(--radius);
   text-transform: capitalize;
-  color: var(--clr-red-dark);
+  color: var(--clr-primary-5);
   letter-spacing: var(--spacing);
   border-color: transparent;
   cursor: pointer;
@@ -194,15 +191,35 @@ p .link {
   display: block;
   width: 200px;
   margin: 2rem auto;
-  color: var(--clr-red-dark);
+  color: var(--clr-primary-5);
   letter-spacing: var(--spacing);
   background: transparent;
-  border: 1px solid var(--clr-red-dark);
+  border: 1px solid var(--clr-primary-5);
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
   transition: var(--transition);
 }
 
+.delete-btn:hover{
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+
+@media screen and (max-width:500px) {
+  .title h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .benefit-info {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+}
 
 /* Types */
 
@@ -220,11 +237,11 @@ p .link {
   margin-top: 3rem;
   padding: 20px;
   border-radius: var(--radius);
-  box-shadow: var(--light-shadow);
+  box-shadow: var(--dark-shadow);
 }
 
 .coffee-card:hover{
-  box-shadow: var(--dark-shadow);
+  box-shadow: var(--light-shadow);
   transition: var(--transition);
 }
 
