@@ -203,9 +203,55 @@ p .link {
   transition: var(--transition);
 }
 
+
+/* Types */
+
+.types {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: var(--max-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.coffee-card {
+  width: 460px;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.coffee-card:hover{
+  box-shadow: var(--dark-shadow);
+  transition: var(--transition);
+}
+
+.types-title {
+  margin-top: 10rem;
+  text-align: center;
+  }
+
+.type-subtitle {
+  margin: 1rem 0;
+}
+
+.type-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: var(--spacing)
+}
+
+.type-img{
+  width: 420px;
+  border-radius: var(--radius);
+}
+
 .btn-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 700px;
   margin: 3rem auto;
 }
@@ -225,51 +271,54 @@ p .link {
   transition: var(--transition);
 }
 
-/* Types */
-
-
-
-.types-title {
-margin-top: 10rem;
-text-align: center;
+@media screen and (max-width: 1260px) {
+  .types {
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.types {
-  display: flex;
-  justify-content: space-between;
-  width: var(--max-width);
-  margin: 0 auto;
-  flex-wrap: wrap;
+@media screen and (max-width: 850px) {
+  .types-title {
+    font-size: 2rem;
+    margin: 10rem auto 2rem;
+    }
+    .btn-container {
+      width: 400px;
+      flex-direction: column;
+      margin: 2rem auto;
+    }
+    .change {
+      padding: 10px 30px;
+      margin: 0.3rem;
+    }
 }
 
-.coffee-card {
-  width: 460px;
-  margin-top: 3rem;
-  padding: 20px;
-  border-radius: var(--radius);
-  box-shadow: var(--light-shadow);
-}
+@media screen and (max-width: 500px) {
+  .types {
+    width: 350px;
+  }
+    .btn-container {
+      width: 350px;
+      flex-direction: column;
+    }
+    .coffee-card {
+      width: 350px;
+    }
+    .type-img{
+      width: 300px;
+      border-radius: var(--radius);
+    }
+    .type-subtitle {
+      font-size: 1.5rem;
+    }
+    .type-text {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
 
-.coffee-card:hover{
-  box-shadow: var(--dark-shadow);
-  transition: var(--transition);
 }
-
-.type-subtitle {
-  margin: 1rem 0;
-}
-
-.type-text {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  letter-spacing: var(--spacing)
-}
-
-.type-img{
-  width: 420px;
-  border-radius: var(--radius);
-}
-
 
 /* Video */
 

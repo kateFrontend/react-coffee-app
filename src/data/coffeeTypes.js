@@ -208,10 +208,10 @@ export const coffeeTypes = [
 
   {
     id: 24,
-    name: "Mazagran",
+    name: "Vanilla Coffee",
     searchTerm: "iced",
     image:
       "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    info: "Mazagran coffee is a cross between iced coffee, tea and your favorite rum drink. It typically consists of espresso, lemon, sugar and (sometimes) rum.",
+    info: "Homemade vanilla simple syrup gives a fragrant hint of sweetness to your iced coffee, so you don't have to worry about trying to dissolve granulated sugar in your cold beverage.",
   },
 ];
