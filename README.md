@@ -1,4 +1,4 @@
-# Coffee app
+# Coffee React app
 
 ## 🦉 Main information
 
