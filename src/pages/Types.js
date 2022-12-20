@@ -13,9 +13,9 @@ function Types() {
   };
 
   return (
-    <main>
+    <section>
       <div>
-        <h1 className="title">Guide to Different Types of Coffee</h1>
+        <h1 className="types-title">Guide to Different Types of Coffee</h1>
         <Buttons chooseType={chooseType} />
       </div>
       <div className="types">
@@ -32,7 +32,7 @@ function Types() {
           );
         })}
       </div>
-    </main>
+    </section>
   );
 }
 

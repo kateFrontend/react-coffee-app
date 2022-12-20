@@ -225,6 +225,15 @@ p .link {
   transition: var(--transition);
 }
 
+/* Types */
+
+
+
+.types-title {
+margin-top: 10rem;
+text-align: center;
+}
+
 .types {
   display: flex;
   justify-content: space-between;
@@ -251,6 +260,7 @@ p .link {
 }
 
 .type-text {
+  font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: var(--spacing)
 }
