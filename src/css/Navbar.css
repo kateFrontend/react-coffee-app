@@ -18,7 +18,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--clr-primary-10);
+    background-color: #000;
   }
   
   nav .coffee-title {

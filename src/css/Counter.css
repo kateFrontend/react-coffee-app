@@ -6,7 +6,7 @@
   
   .counter {
     padding: 5rem;
-    background: var(--clr-primary-10)
+    background-color: #000;
   }
   
   .counter-row {

@@ -10,9 +10,6 @@ function Counter({ className, ...rest }) {
   return (
     <>
       <section className="counter">
-{/*         <div className="counter-title">
-          <h1>interesting facts about coffee</h1>
-        </div> */}
 
         <div className="counter-row">
           <div className="counter-column">

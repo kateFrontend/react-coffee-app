@@ -4,24 +4,23 @@
     display: flex;
     padding-top: 13rem;
     padding-left: 10rem;
-    background-image: url('../assets/04.jpg');
+    background-image: url('../assets/05.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    /* background-position: center center; */
     width: 100%;
-    height: 90vh;
+    height: 100vh;
   }
   
-  .hero::before{
+/*   .hero::before{
     content: '';
     position: absolute;
     left: 0;
     bottom: 10vh;
     right: 0;
     top: 0;
-    background: #19100B;
     opacity: .6;
-  }
+  } */
   
   .container {
     position: relative;
