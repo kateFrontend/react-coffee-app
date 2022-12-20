@@ -73,9 +73,19 @@
       padding: 0 5rem;
     }
 
+    .el-title{
+      color: white;
+      font-size: 3rem;
+      font-weight: 300;
+      position: absolute;
+      line-height: 2rem;
+      top:55%;
+      left: 10%;
+    }
+
     .serv-section {
       padding: 0;
-      background: var(--clr-primary-10);
+      background: #000;
     }
     .serv-title {
       font-size: 28px;
