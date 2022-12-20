@@ -118,6 +118,10 @@ p .link {
   p{
     font-size: 0.8rem;
   }
+
+  .info {
+    font-size: 0.5rem;
+  }
 }
 
 /* Benefits */
@@ -187,7 +191,7 @@ p .link {
   font-size: 1.2rem;
 }
 
-.delete-btn {
+.delete-btn{
   display: block;
   width: 200px;
   margin: 2rem auto;
@@ -201,6 +205,36 @@ p .link {
 }
 
 .delete-btn:hover{
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+
+.center {
+  margin-top: 3rem;
+  text-align: center;
+}
+.reload {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-reload{
+  display: block;
+  width: 300px;
+  margin: 2rem auto;
+  color: var(--clr-primary-5);
+  letter-spacing: var(--spacing);
+  background: transparent;
+  border: 2px solid var(--clr-primary-5);
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.btn-reload:hover{
   background: var(--clr-primary-5);
   color: var(--clr-white);
 }
