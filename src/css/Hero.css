@@ -1,5 +1,3 @@
-/* Hero */
-
 .hero {
     display: flex;
     padding-top: 13rem;
@@ -20,8 +18,8 @@
     line-height: 1.3;
     margin: 100px 0 20px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+    text-transform: var(--text-transform);
+    letter-spacing: var(--spacing);
   }
   
   .hero-link {
@@ -36,7 +34,7 @@
     border-radius: var(--radius);
     color: var(--clr-white);
     font-weight: 400;
-    letter-spacing: 0.5px;
+    letter-spacing: var(--spacing);
     transition: var(--transition);
   }
   
@@ -55,6 +53,7 @@
   @media screen and (max-width: 985px) {
     .hero{
       padding-left: 3rem;
+      background-position: center;
     }
     .container h1 {
       font-size: 3.5rem;
@@ -76,13 +75,13 @@
   @media screen and (max-width: 480px) {
     .hero{
       padding: 11rem 1rem 0 2rem;
-      height: 80vh;
-    }
-    .hero::before{
-      bottom: 20%;
+      background-position: center;
     }
     .container h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
+    }
+    .hero-link .explore {
+      padding: 10px 50px;
     }
   }
   
@@ -91,11 +90,8 @@
       padding-top: 9rem;
     }
     .container h1 {
-      font-size: 2.3rem;
+      font-size: 2rem;
     }
-    .link .explore{
-      padding: 10px 17px;
-      margin-right: 10px;
-    }
+
   }
   
