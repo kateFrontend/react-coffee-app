@@ -22,7 +22,7 @@ nav{
   }
   
   nav .coffee-title {
-    color: var(--clr-white);
+    color: var(--clr-primary-5);
     font-size: 1.6rem;
     font-weight: bold;
     letter-spacing: 0.5px;

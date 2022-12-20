@@ -5,7 +5,7 @@
   }
   
   .counter {
-    padding: 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     background-color: #000;
   }
   
@@ -20,7 +20,7 @@
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-right: 1px solid var(--clr-white);
+    border-right: 1px solid var(--clr-primary-5);
   }
   .counter-column:last-child {
     border-right: none;
@@ -28,8 +28,8 @@
   
   .counter-column .number {
     font-weight: 400;
-    font-size: 50px;
-    color: var(--clr-white);
+    font-size: 75px;
+    color: var(--clr-primary-5);
   }
   
   .counter-column span{

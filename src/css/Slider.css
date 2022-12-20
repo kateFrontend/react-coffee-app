@@ -44,7 +44,7 @@
     font-size: 3rem;
     margin: 0 auto;
     margin-bottom: 2rem;
-    color: var(--clr-white);
+    color: var(--clr-primary-5);
   }
 
 .prev,
@@ -54,7 +54,7 @@
   margin:-90px -150px;
   transform: translateY(-50%);
   background: transparent;
-  color: var(--clr-white);
+  color: var(--clr-primary-5);
   display: grid;
   place-items: center;
   border-color: transparent;
