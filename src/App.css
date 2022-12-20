@@ -65,7 +65,62 @@ p {
   font-size: 1rem;
 }
 
+/* About */
 
+.about-section {
+  padding: 10rem;
+}
+
+.about-title {
+  color: var(--clr-primary-5);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-section .italic{
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+hr{
+  margin-bottom: 1rem;
+  background-color: var(--clr-primary-5);
+}
+
+.about-section .info{
+  margin-bottom: 1rem
+}
+
+.info {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+p .link {
+  font-size: 0.8rem;
+  color: var(--clr-primary-5);
+}
+
+@media screen and (max-width:500px) {
+  .about-section {
+    padding: 5rem 3rem;
+  }
+
+  .about-title {
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+}
+
+/* Benefits */
 
 .benefit-main {
   width: 90vw;
@@ -154,7 +209,6 @@ p {
   width: 700px;
   margin: 3rem auto;
 }
-
 
 .change {
   padding: 10px 30px;
