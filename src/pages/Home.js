@@ -5,15 +5,14 @@ import Sections from "../components/Sections";
 import Slider from "../components/Slider";
 import Video from "../components/Video";
 
-
 function Home() {
   return (
     <div>
-      <Hero/>
-       <Counter/>
-       <Sections/>
-      <Slider/> 
-      <Video/>  
+      <Hero />
+      <Counter />
+      <Sections />
+      <Slider />
+      <Video />
     </div>
   );
 }

@@ -39,7 +39,6 @@
     padding-left: 15px;
   }
   
-  
   @media screen and (max-width: 1260px) {
     .counter-row{
         grid-template-columns: 1fr 1fr;

@@ -132,10 +132,14 @@ function History() {
         </p>
 
         <p className="info">
-          Information from the<a className="link" 
-          href="https://www.ncausa.org/about-coffee/history-of-coffee#:~:text=Coffee%20cultivation%20and%20trade%20began,Egypt%2C%20Syria%2C%20and%20Turkey.">
-            source 
-          </a>for educational purposes only
+          Information from the
+          <a
+            className="link"
+            href="https://www.ncausa.org/about-coffee/history-of-coffee#:~:text=Coffee%20cultivation%20and%20trade%20began,Egypt%2C%20Syria%2C%20and%20Turkey."
+          >
+            source
+          </a>
+          for educational purposes only
         </p>
       </>
     </section>

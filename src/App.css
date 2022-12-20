@@ -8,13 +8,7 @@ Variables
 
   /* primary/main color */
   --clr-primary-5: #e15d1b;
-  /* lighter shades of primary color */
   --clr-primary-10: #19100B;
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-black: #222;

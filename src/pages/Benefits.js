@@ -21,7 +21,10 @@ function Benefits() {
       <>
         <div className="reload">
           <h2>No benefits left</h2>
-          <button className="btn-reload" onClick={() => window.location.reload(false)}>
+          <button
+            className="btn-reload"
+            onClick={() => window.location.reload(false)}
+          >
             Click to reload benefits
           </button>
         </div>

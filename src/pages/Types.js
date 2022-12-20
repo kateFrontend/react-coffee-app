@@ -23,7 +23,7 @@ function Types() {
           const { id, name, searchTerm, image, info } = element;
           return (
             <div className="coffee-card" key={id}>
-              <img src={image} alt={name} className='type-img' />
+              <img src={image} alt={name} className="type-img" />
               <div className="coffe-info">
                 <h2 className="type-subtitle">{name}</h2>
                 <p className="type-text">{info}</p>
