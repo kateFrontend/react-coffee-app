@@ -2,7 +2,7 @@ import { isVisible } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
-import '../css/Counter.css';
+import "../css/Counter.css";
 
 function Counter({ className, ...rest }) {
   const [viewPortEntered, setViewPortEntered] = useState(false);
@@ -10,11 +10,10 @@ function Counter({ className, ...rest }) {
   return (
     <>
       <section className="counter">
-
         <div className="counter-row">
           <div className="counter-column">
-            <strong data-number="310">
-              <CountUp {...rest} start={viewPortEntered ? null : 0} end={310}>
+            <strong data-number="35">
+              <CountUp {...rest} start={viewPortEntered ? null : 0} end={35}>
                 {({ countUpRef }) => {
                   return (
                     <ReactVisibilitySensor
@@ -33,14 +32,15 @@ function Counter({ className, ...rest }) {
               </CountUp>
             </strong>
             <span>
-              Some text <br />
-              Goes here
+              % of coffee consumers
+              <br />
+              drink black coffee
             </span>
           </div>
 
           <div className="counter-column">
-            <strong data-number="1250">
-              <CountUp {...rest} start={viewPortEntered ? null : 0} end={1250}>
+            <strong data-number="400">
+              <CountUp {...rest} start={viewPortEntered ? null : 0} end={400}>
                 {({ countUpRef }) => {
                   return (
                     <ReactVisibilitySensor
@@ -59,14 +59,15 @@ function Counter({ className, ...rest }) {
               </CountUp>
             </strong>
             <span>
-              Some text <br />
-              Goes here
+              millions coffee cups
+              <br />
+              consumed every day
             </span>
           </div>
 
           <div className="counter-column">
-            <strong data-number="125">
-              <CountUp {...rest} start={viewPortEntered ? null : 0} end={125}>
+            <strong data-number="120">
+              <CountUp {...rest} start={viewPortEntered ? null : 0} end={120}>
                 {({ countUpRef }) => {
                   return (
                     <ReactVisibilitySensor
@@ -85,14 +86,14 @@ function Counter({ className, ...rest }) {
               </CountUp>
             </strong>
             <span>
-              Some text <br />
-              Goes here
+              millions bags of coffee <br />
+              produced every year
             </span>
           </div>
 
           <div className="counter-column">
-            <strong data-number="24">
-              <CountUp {...rest} start={viewPortEntered ? null : 0} end={24}>
+            <strong data-number="66">
+              <CountUp {...rest} start={viewPortEntered ? null : 0} end={66}>
                 {({ countUpRef }) => {
                   return (
                     <ReactVisibilitySensor
@@ -111,8 +112,8 @@ function Counter({ className, ...rest }) {
               </CountUp>
             </strong>
             <span>
-              Some text <br />
-              Goes here
+              % of women drink <br />
+              coffee every day
             </span>
           </div>
         </div>

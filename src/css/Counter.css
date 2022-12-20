@@ -1,5 +1,3 @@
-/* Counter */
-
 .counter-title {
     padding-left: 10rem;
   }
@@ -35,24 +33,26 @@
   .counter-column span{
     display: block;
     font-size: 18px;
+    font-weight: 300;
     color:var(--clr-white);
     line-height: 1.2;
     padding-left: 15px;
   }
   
-  .counter-column .percentage {
-    font-style: 3rem;
-    font-weight: 400;
-    color: #003B46;
-  }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1260px) {
     .counter-row{
         grid-template-columns: 1fr 1fr;
     }
     .counter-column{
         padding: 2rem 0 2rem 0;
         border: none;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .counter-column span{
+      font-size: 13px;
     }
   }
   
