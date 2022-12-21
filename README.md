@@ -2,6 +2,8 @@
 
 ![cover](.../../src/assets/cover.jpg)
 
+<center> View Demo <a href="https://coffee-app-react.netlify.app/" target="_blank">React Coffee App</a> </center>
+
 ## 🦉 Main information
 
 The goal is to create a complete React project.\
