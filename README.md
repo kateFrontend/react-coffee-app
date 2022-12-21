@@ -1,5 +1,7 @@
 # Coffee React app
 
+![cover](.../../src/assets/cover.jpg)
+
 ## 🦉 Main information
 
 The goal is to create a complete React project.\
